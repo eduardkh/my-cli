@@ -19,3 +19,7 @@
 > cobra init
 
 `cobra init --pkg-name my-calc`
+
+> add sub command
+
+`cobra add add`
