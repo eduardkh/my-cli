@@ -53,7 +53,7 @@ func Execute() {
 
 func init() {
 
-	fmt.Println("inside init")
+	// fmt.Println("inside init")
 
 	cobra.OnInitialize(initConfig)
 
@@ -71,7 +71,7 @@ func init() {
 // initConfig reads in config file and ENV variables if set.
 func initConfig() {
 
-	fmt.Println("inside initConfig")
+	// fmt.Println("inside initConfig")
 
 	if cfgFile != "" {
 		// Use config file from the flag.
