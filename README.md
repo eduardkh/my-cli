@@ -12,6 +12,10 @@
 
 `go mod init my-calc`
 
+> install module
+
+`go install my-calc`
+
 > cobra init
 
 `cobra init --pkg-name my-calc`
