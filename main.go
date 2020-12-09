@@ -15,8 +15,14 @@ limitations under the License.
 */
 package main
 
-import "my-calc/cmd"
+import (
+	"fmt"
+	"my-calc/cmd"
+)
 
 func main() {
+
+	fmt.Println("inside main")
+
 	cmd.Execute()
 }
