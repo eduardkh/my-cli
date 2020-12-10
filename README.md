@@ -31,3 +31,11 @@
 > add sub command to add (odd)
 
 `cobra add odd`
+
+* https://github.com/spf13/cobra/blob/master/shell_completions.md
+
+> bash completion
+
+`cobra add completion`
+
+`my-cli completion bash > /etc/bash_completion.d/my-cli`
