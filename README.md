@@ -23,3 +23,7 @@
 > add sub command
 
 `cobra add add`
+
+> add sub command to add
+
+`cobra add even`
