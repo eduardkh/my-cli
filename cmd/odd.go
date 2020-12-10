@@ -17,6 +17,7 @@ package cmd
 
 import (
 	"fmt"
+	"strconv"
 
 	"github.com/spf13/cobra"
 )
@@ -32,7 +33,16 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("odd called")
+		// fmt.Println("odd called")
+		var oddSum int
+		for _, ival := range args {
+			itemp, _ := strconv.Atoi(ival)
+			if itemp%2 != 0 {
+				oddSum = oddSum + itemp
+			}
+		}
+		fmt.Printf("The odd addition of %s is %d", args, oddSum)
+
 	},
 }
 
