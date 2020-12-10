@@ -27,3 +27,7 @@
 > add sub command to add
 
 `cobra add even`
+
+> add sub command to add (odd)
+
+`cobra add odd`
