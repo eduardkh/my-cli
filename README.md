@@ -38,4 +38,11 @@
 
 `cobra add completion`
 
-`my-cli completion bash > /etc/bash_completion.d/my-cli`
+> create
+
+`my-calc completion bash > my-calc.bash-completion`
+> move to + chown
+
+`mv my-calc.bash-completion /etc/bash_completion.d/`
+
+`chown root /etc/bash_completion.d/my-calc.bash-completion`
