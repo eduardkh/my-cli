@@ -41,7 +41,7 @@ to quickly create a Cobra application.`,
 				evenSum = evenSum + itemp
 			}
 		}
-		fmt.Printf("The even addition of %s is %d", args, evenSum)
+		fmt.Printf("The even addition of %s is %d\n", args, evenSum)
 	},
 }
 

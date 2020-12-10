@@ -41,7 +41,7 @@ to quickly create a Cobra application.`,
 				oddSum = oddSum + itemp
 			}
 		}
-		fmt.Printf("The odd addition of %s is %d", args, oddSum)
+		fmt.Printf("The odd addition of %s is %d\n", args, oddSum)
 
 	},
 }
